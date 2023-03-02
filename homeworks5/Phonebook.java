@@ -3,7 +3,6 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.TreeMap;
 
-
 public class Phonebook {
     TreeMap<String, LinkedList<Integer>> phonebook = new TreeMap<>();
 
@@ -45,5 +44,4 @@ public class Phonebook {
             System.out.println("Телефонный справочник пуст.");
         }
     }
-    
 }
